@@ -1,0 +1,301 @@
+.navigation{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   width: 90%; 
+   margin: auto;
+
+}
+ul{
+   display: flex;
+   list-style: none;
+}
+li{
+   margin-right: 6px;
+}
+body{
+   margin: 0;
+   padding: 0;
+   background-color: aquamarine;
+}
+h1:hover{
+   cursor: pointer;
+}
+li:hover{
+   cursor: pointer
+   ;
+   text-decoration: underline;
+   color: rgb(52, 46, 220);
+}
+.hompage__detail{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+}
+.my__images{
+   border-radius: 25%;
+}
+/* contact section */
+.form-group{
+   display: flex;
+   flex-direction: column;
+}
+.form{
+   width: 400px;
+background-color: rgb(190, 134, 134);
+   padding: 10px;
+}
+.form__content{
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+   min-width: 100vw;
+}
+    
+
+label{
+   font-size: 1.5rem;
+}
+input,select{
+   padding: 7px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+input:valid{
+   border:1px solid green;
+}
+input:invalid{
+   border:1px solid red ;
+   
+}
+button{
+   width: 100%;
+   margin-top: 15px;
+   padding: 7px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(243, 210, 22);
+}
+button:hover{
+   color: white;
+   font-size: 1.5rem;
+   cursor: pointer;
+   background-color: rgb(38, 38, 240);
+}
+/* lets style ourdownload */
+.parent__wedget{
+   display: flex;
+}
+.left__wedget{
+      border: 1px solid green;
+   width: 25%;
+}
+.middle__wedget{
+      border: 1px solid green;
+   width: 50%;
+   padding: 10px;
+}
+.right__wedget{
+   
+   border: 1px solid green; 
+   width: 25%;
+}
+.menu{
+   display: flex;
+   align-items: center;
+}
+.fa-solid{
+   font-size: 25px;
+   margin-right: 10px;
+}
+
+.image_1 {
+   height: 70px;
+   width: 70px;
+   border-radius:50%;
+   margin: auto;
+   border: 4px solid red;
+}
+
+.upper_section {
+   display: flex;
+
+}
+
+
+.profile_picture {
+   height:50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.profile {
+   display: flex;
+   align-items:center;
+}
+
+p {
+   padding: 0;
+   margin: 0;
+}
+
+.sugesstion {
+   display: flex;
+   justify-content:space-between;
+   padding: 10px;
+}
+
+.image_3 {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
+
+.profile {
+   margin-top:1rem;
+}
+
+
+/* about start here */
+.parant-container {
+   display: flex;
+   justify-content:space-between;
+   background-color: orange;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+/* left container start here */
+.left-container, .right-container {
+   padding:15px;
+}
+.div_image{
+   width: 500px;
+}
+.div_image>img {
+   width: 100%;
+   border-radius: 15px;
+}
+
+.left-container>h1{
+   text-align: center;
+   font-family: sans-serif;
+}
+.right-container h1{
+   text-align: center;
+   font-family: sans-serif;
+}
+
+.left-container>p {
+   font-size: 1.5rem;
+}
+.right-container p {
+   font-size :1.5rem;
+}
+/* overlay */
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   opacity: 0.6 ;
+   background: aquamarine;
+}
+
+/* footer start here */
+
+.footer {
+   display: flex;
+   justify-content:space-between;
+   background-color: #F94753;
+   width: 90%;
+   margin: auto;
+   padding: 15px;
+}
+
+/* left footer  */
+
+.footer_left {
+   color: white;
+
+}
+
+/* middle footer */
+.mid_ul  {
+   display: flex;
+   flex-direction:column;
+   color: white;
+}
+
+.mid_ul>li>a {
+   color: white;
+   text-decoration: none;
+}
+
+.footer_mid>h1 {
+   color: white;
+}
+
+
+/* right footer */
+.footer_right>ul{
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+.footer_right>h1 {
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile view */
+@media screen and (max-width: 768px){
+
+   .parant-container {
+      display: flex;
+      flex-direction: column;
+
+   }
+
+   .div_image{
+      width: 100%;
+   }
+
+   .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .hompage__detail{
+      display: flex;
+      flex-direction: column;
+
+   }
+.div__image,.my__images{
+   width: 100%;
+}
+.navigation{
+   display: flex;
+   flex-direction: column;
+}
+}

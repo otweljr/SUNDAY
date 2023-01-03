@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="navigation">
+        <h1>
+            LOGO
+        </h1>
+        <ul>
+            <a href="/home.html"><li>HOME</li></a>
+
+            <a href="/about.html"> <li>ABOUT</li> 
+            </a>
+            <a href="/contact.html"> <li>CONTACT</li> 
+
+            </a>
+            <a href="/download.html"><li>DOWNLOAD</li>   </a>
+           
+           
+             
+    </div>
+    <h1 style="text-align: center;"><a href="/index.html">Sign Up</a></h1>
+   <div  class="form__content" >
+    <form class="form" id="form">
+       <div class="form-group">
+        <label for="fname">First Name</label>
+        <input name="firstname" minlength="3" required maxlength="25" type="text" id="fname" placeholder="Enter your name here ...">
+       </div>
+       <div class="form-group">
+        <label for="ssecondName">second Name</label>
+        <input name="secondname" required type="text" id="ssecondName" placeholder="Second Name">
+       </div>
+       <div class="form-group">
+        <label for="email">Email</label>
+        <input name="email" required type="email" id="email" placeholder="Email">
+       </div><div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input name="phone" pattern="[0-9]{10}" minlength="10" maxlength="10" required type="text" id="phone" placeholder="Phone Number (0-9)">
+       </div><div class="form-group">
+        <label for="password">Password</label>
+        <input name="password" required type="password" id="password" placeholder="Password">
+       </div>
+       <div class="form-group">
+        <label for="fname">Confirm Password</label>
+        <input name="password" required type="password" id="password_1" placeholder="Confirm password">
+       </div>
+       <div class="form-group">
+        <label for="fname">Choose Course</label>
+   <select name="course">
+    <option value="Maths ">Maths </option>
+    <option value="Physics ">Physics </option>
+    <option value="Biology">Biology </option>
+    <option value="Chimie ">Chimie </option>
+    <option value="Algorithm">Algorithm</option>
+   </select>
+       </div>
+        <button type="submit">Submit</button>
+        <p id="paragaph"></p>
+    </form>
+   </div>
+
+   <script src="/sunday.js"></script>
+</body>
+</html>
